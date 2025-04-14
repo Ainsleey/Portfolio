@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(to right, #1b2838,#1a2b3f);
+}
+.backbtn{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 75px;
+    font-size: 55px;
+    font-weight: 500;
+    margin-left: 1500px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.abtme {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    padding-left: 150px;
+}
+
+.personal-info {
+    width: 60%;
+    text-align: left;
+}

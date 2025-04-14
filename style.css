@@ -1,0 +1,82 @@
+*{
+    text-decoration:none;
+}
+.navbar{
+    background: #171b21;
+    font-family: Caslon;
+    padding-right: 120px;
+    padding-left: 45px;
+    height: 85px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+body{
+    background: linear-gradient(to right, #1b2838,#1a2b3f);
+    justify-content: center;
+    min-height: 200vh;
+    width: 200vh;
+}
+.me{
+    display: flex;
+    flex-direction: column;
+}
+h1, h2{
+    margin: 5px 0;
+    color: white;
+    font-size: 50px;
+    line-height: 1;
+    height: 1;
+    margin-left: 950px;
+}
+h1{
+    padding-top: 200px;
+}
+.objective{
+    display: flex;
+    flex-direction: column;
+}
+.objective p{
+    margin: -90px 0;
+    color: white;
+    font-size: 30px;
+    line-height: 1;
+    margin-left: 950px;
+    padding-top: 120px;
+    text-indent: 55px;
+}
+.atabs{
+    padding-left: 490px;
+    padding-bottom: 1000px;
+    margin-top: -230px;
+}
+.bottom {
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+}
+.bottom img {
+    width: 99%;
+    height: 100%;
+    object-fit: cover;
+}
